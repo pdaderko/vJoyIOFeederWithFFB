@@ -1,5 +1,19 @@
 # BackForceFeeder
 
+## What's new in this fork?
+
+Added barebones Python script "bff_translate.py" to emulate FeederIOBoard, helping
+extend functionality by interfacing I/O with other Python code.  To use, install
+a virtual null modem using an application like com0com, then run
+"py bff_translate.py &lt;COM port&gt;", and then run BackForceFeeder.exe (or
+BackForceFeederGUI.exe).
+
+Also added binaries built from the latest available source code.  It seems that
+the latest "official" binary release (BackForceFeeder Beta 6.0) is only a trial,
+requiring purchase of a license.  It's not clear if this project has switched to
+closed source, but the latest available source appears to build as v0.4.10.0.  I
+have only tested my Python scripts using these binaries built from source.
+
 ## What is this about?
 
 This is a now stable software suite to manage force feedback game effects from 
@@ -235,5 +249,4 @@ The FAQ is in a separate file [here](FAQ.md).
 
 ## Donate
 
-Want to pay me a beer?
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=8HS79NM8E8ZEU&currency_code=EUR)
+If you'd like to donate, please donate to the original developer @njz3 from which I forked this code.  See the link at the bottom of the original project.
